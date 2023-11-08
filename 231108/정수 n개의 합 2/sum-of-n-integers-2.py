@@ -9,5 +9,5 @@ for i in range(1, n):
     prefix_sum[i] = prefix_sum[i-1]+nums[i]
 result = -sys.maxsize
 for i in range(n-k):
-    result = max(result, prefix_sum[i+5]-prefix_sum[i])
+    result = max(result, prefix_sum[i+k]-prefix_sum[i])
 print(result)
