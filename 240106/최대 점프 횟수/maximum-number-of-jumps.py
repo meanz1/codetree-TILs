@@ -17,4 +17,4 @@ for i in range(n-1):
 if flag != 5:
     print(max(new_dp[:i]))
 else:
-    print(max(new_dp))
+    print(max(dp))
