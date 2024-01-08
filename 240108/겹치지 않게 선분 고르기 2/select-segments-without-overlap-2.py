@@ -14,7 +14,7 @@ for i in range(n):
         a, b = lines[i]
         c, d = lines[j]
 
-        if c > b:
+        if d< a:
             dp[i] = max(dp[i], dp[j]+1)
 ans = 0
 print(max(dp))
